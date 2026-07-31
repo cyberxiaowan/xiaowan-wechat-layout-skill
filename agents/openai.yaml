@@ -1,5 +1,5 @@
 interface:
-  display_name: "小晚公众号排版 Lite"
+  display_name: "@小晚不在 · 公众号排版 Lite"
   short_description: "把定稿长文排成适合公众号手机阅读、可复制发布的 HTML"
   brand_color: "#B17816"
   default_prompt: "Use $xiaowan-wechat-layout-lite to turn this finalized article into a mobile-first WeChat HTML layout."

@@ -1,12 +1,12 @@
-# 小晚公众号排版 Lite
+# @小晚不在 · 公众号排版 Lite
 
 仓库地址：https://github.com/cyberxiaowan/xiaowan-wechat-layout-skill
 
-这是小晚在实际制作公众号长文时，基于多轮截图反馈、手机端修改和真实发布复盘沉淀出的公开排版工作流。
+这是 @小晚不在 在实际制作公众号长文时，基于多轮截图反馈、手机端修改和真实发布复盘沉淀出的公开排版工作流。
 
 ## 实际效果示意
 
-[![小晚公众号排版 Skill 实际成品](docs/wechat-layout-showcase.jpg)](https://mp.weixin.qq.com/s/EKjNjihmkXBYgao16m5ztQ?scene=1)
+[![@小晚不在公众号排版 Skill 实际成品](docs/wechat-layout-showcase.jpg)](https://mp.weixin.qq.com/s/EKjNjihmkXBYgao16m5ztQ?scene=1)
 
 上图是使用这套工作流反复修改后的实际成品。点击图片，或
 [查看完整公众号文章](https://mp.weixin.qq.com/s/EKjNjihmkXBYgao16m5ztQ?scene=1)。
@@ -30,7 +30,7 @@
 本项目是一个工作流增强层，不包含公众号 HTML 排版引擎。
 
 使用前需要安装甲木 × 摸鱼小李制作的
-[gzh-design](https://github.com/isjiamu/gzh-design-skill)。本项目会调用它生成基础公众号 HTML，再加入小晚从真实发布中沉淀的移动端检查、反馈路由和复盘流程。
+[gzh-design](https://github.com/isjiamu/gzh-design-skill)。本项目会调用它生成基础公众号 HTML，再加入 @小晚不在 从真实发布中沉淀的移动端检查、反馈路由和复盘流程。
 
 ## 安装
 
@@ -57,7 +57,7 @@
 ```
 
 这样即使用户一个都没装，Codex 也会依次安装；已经装过
-`gzh-design` 的用户只会补装小晚的公开版。
+`gzh-design` 的用户只会补装 @小晚不在 的公开版。
 
 ### 方式二：Mac 一键安装
 
@@ -92,7 +92,7 @@
 - 图片预合成后再粘贴；
 - 最终以公众号后台和手机预览为准。
 
-这些是默认起点，不是要求所有人复制小晚的视觉。请换成自己的头像、IP、署名、配色和内容资产。
+这些是默认起点，不是要求所有人复制 @小晚不在 的视觉。请换成自己的头像、IP、署名、配色和内容资产。
 
 ## 关于写稿
 
@@ -103,8 +103,8 @@
 ## 授权与致谢
 
 - 排版底层：甲木 × 摸鱼小李的 `gzh-design`；
-- 工作流整理与移动端规则：小晚不在；
+- 工作流整理与移动端规则：@小晚不在；
 - 本项目采用 `AGPL-3.0-or-later`；
-- 本项目不包含 `gzh-design` 源码，也不包含小晚的私人文章、AI呀素材或业务资料。
+- 本项目不包含 `gzh-design` 源码，也不包含 @小晚不在 的私人文章、AI呀素材或业务资料。
 
 详见 [NOTICE.md](NOTICE.md)。
