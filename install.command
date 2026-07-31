@@ -14,6 +14,8 @@ rsync -a --delete \
   --exclude "README.md" \
   --exclude "NOTICE.md" \
   --exclude "LICENSE" \
+  --exclude ".gitignore" \
+  --exclude "docs" \
   --exclude "install.command" \
   "$PACKAGE_DIR/" "$TARGET_DIR/"
 

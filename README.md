@@ -4,6 +4,15 @@
 
 这是小晚在实际制作公众号长文时，基于多轮截图反馈、手机端修改和真实发布复盘沉淀出的公开排版工作流。
 
+## 实际效果示意
+
+[![小晚公众号排版 Skill 实际成品](docs/wechat-layout-showcase.jpg)](https://mp.weixin.qq.com/s/EKjNjihmkXBYgao16m5ztQ?scene=1)
+
+上图是使用这套工作流反复修改后的实际成品。点击图片，或
+[查看完整公众号文章](https://mp.weixin.qq.com/s/EKjNjihmkXBYgao16m5ztQ?scene=1)。
+
+示意图仅用于展示排版效果；文章中的品牌图片版权归原品牌及原媒体所有。
+
 它不会替你决定观点、文体和审美，也不会把所有文章强行套进同一种写稿结构。它会让 Codex 在排版时重点检查：
 
 - 首屏是不是一个完整的信息单元；
