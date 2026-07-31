@@ -25,15 +25,30 @@
 
 ## 安装
 
-### 方式一：交给 Codex
+### 方式一：一条提示词安装两个 Skill
 
-把仓库地址发给 Codex，并说：
+把下面整段复制给 Codex：
 
 ```text
-请安装这个仓库中的 xiaowan-wechat-layout-lite Skill。
-如果本机没有 gzh-design，请先从官方仓库安装它。
-安装完成后检查两个 Skill 是否都能被识别。
+请帮我安装并验证以下两个 Codex Skill：
+
+1. gzh-design
+   https://github.com/isjiamu/gzh-design-skill
+
+2. xiaowan-wechat-layout-lite
+   https://github.com/cyberxiaowan/xiaowan-wechat-layout-skill
+
+要求：
+- 先检查本机已安装的 Skills；
+- 已存在且结构完整的 Skill 直接保留，不要覆盖；
+- 缺少哪个就从对应的官方 GitHub 仓库安装哪个；
+- 安装到 Codex 的 Skills 目录；
+- 检查两个目录都包含有效的 SKILL.md；
+- 告诉我安装结果，以及重新打开 Codex 任务后如何调用。
 ```
+
+这样即使用户一个都没装，Codex 也会依次安装；已经装过
+`gzh-design` 的用户只会补装小晚的公开版。
 
 ### 方式二：Mac 一键安装
 
