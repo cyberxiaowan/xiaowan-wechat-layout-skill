@@ -1,4 +1,4 @@
-# @小晚不在 · 公众号内容与排版共创
+# @小晚不在 · 公众号排版 Lite
 
 仓库地址：https://github.com/cyberxiaowan/xiaowan-wechat-layout-skill
 

@@ -1,5 +1,5 @@
 interface:
-  display_name: "@小晚不在 · 公众号内容与排版共创"
+  display_name: "@小晚不在 · 公众号排版 Lite"
   short_description: "先梳理内容逻辑与个人审美，再生成可发布的公众号 HTML"
   brand_color: "#B17816"
   default_prompt: "用 $xiaowan-wechat-layout-lite 先诊断这篇文章的内容逻辑，结合我的参考与偏好梳理视觉规则，再生成适合手机阅读、可复制到公众号的 HTML。不要默认复刻 @小晚不在 的风格。"
