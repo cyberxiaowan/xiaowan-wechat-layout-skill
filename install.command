@@ -7,6 +7,12 @@ CODEX_ROOT="${CODEX_HOME:-$HOME/.codex}"
 SKILLS_TARGET="$CODEX_ROOT/skills"
 TARGET_DIR="$SKILLS_TARGET/$SKILL_NAME"
 
+if [[ -d "$TARGET_DIR" && -n "$(find "$TARGET_DIR" -mindepth 1 -maxdepth 1 -print -quit 2>/dev/null)" ]]; then
+  BACKUP_DIR="$SKILLS_TARGET/${SKILL_NAME}.backup.$(date +%Y%m%d-%H%M%S)"
+  cp -R "$TARGET_DIR" "$BACKUP_DIR"
+  echo "✓ 已备份旧版：$BACKUP_DIR"
+fi
+
 mkdir -p "$TARGET_DIR"
 rsync -a --delete \
   --exclude ".git" \
