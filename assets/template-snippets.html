@@ -1,0 +1,73 @@
+<!--
+  小晚同款 · 可粘贴组件片段（参数来源：layout-standard.md；结构来源：2026-10-21 OPC v10 后台读回稿）
+  用法：按需复制片段，替换【】内文字。data-role / data-* 仅供 scripts/audit_preview.cjs 检查，公众号可能去除，无害。
+  禁止：不可见字符（U+2060/零宽空格）防断行；span 的 border-bottom/padding-bottom 下划线（粘贴被过滤）。
+  图片：预览可用本地路径，进后台前须换成素材库 mmbiz 地址；图片外不要包 <a href="data:...">。
+-->
+<section id="gzh-content" style="max-width:677px;padding:0;box-sizing:border-box;font-family:-apple-system,system-ui,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;">
+
+<!-- ① 首屏（仅有首屏版）：主标题合计2行（第二行主题橙）＋灰副标题＋单行黑栏＋短摘要；无IP时删去右侧图槽 -->
+<section data-gzh-role="first-screen" style="border:1px solid #d1d1c9;border-radius:6px;overflow:hidden;margin:0 0 28px;">
+ <section style="padding:24px 22px 23px;">
+  <p data-role="metadata" style="margin:0 0 22px;font-size:9px;font-weight:700;letter-spacing:2.4px;color:#777870;">【栏目名】<span style="color:#a1a19a;font-weight:500;letter-spacing:1px;">　·　【YYYY.MM.DD】</span></p>
+  <section style="display:flex;align-items:center;">
+   <section data-role="title" style="flex:1;min-width:0;">
+    <p style="margin:0;font-size:21px;font-weight:850;line-height:1.4;color:#24251f;">【主标题第一行】</p>
+    <p style="margin:0;font-size:21px;font-weight:850;line-height:1.4;color:#b17816;">【主标题第二行】</p>
+   </section>
+   <section style="width:48px;flex-shrink:0;margin-left:10px;"><img src="【IP图 mmbiz 地址】" alt="IP" style="display:block;width:48px;height:auto;"></section>
+  </section>
+  <p data-role="subtitle" style="margin:14px 0 0;font-size:12px;line-height:1.75;color:#777870;">【灰色副标题，可省】</p>
+ </section>
+ <section style="background:#24251f;padding:10px 14px;">
+  <p data-role="header-bar" style="margin:0;font-size:8px;font-weight:800;letter-spacing:1px;color:#ffffff;white-space:nowrap;">【EN LABEL · EDITOR’S NOTE】<span style="color:#c8a96b;font-weight:500;">　【中文短签】</span></p>
+ </section>
+ <section style="padding:18px 20px 20px;">
+  <p data-role="caption" style="margin:0;font-size:14px;line-height:1.95;color:#4f504b;text-align:left;">【基于全文提炼的短摘要，1～2句，不是原文第一段】</p>
+ </section>
+</section>
+
+<!-- ② 正文段落：15px / 30px / 段距18px（只用下边距） -->
+<p data-role="body" style="margin:0 0 18px;font-size:15px;color:#4f504b;letter-spacing:0.05px;line-height:30px;text-align:justify;">【正文】</p>
+
+<!-- ②b 语义转折：新论点首段上边距30px（与上一段18px合计48px），并加 data-group-break -->
+<p data-role="body" data-group-break style="margin:30px 0 18px;font-size:15px;color:#4f504b;letter-spacing:0.05px;line-height:30px;text-align:justify;">【新语义组首段】</p>
+
+<!-- ②c 同组单行短段连续（问句清单/并列短句）：段距收紧为8px，末项恢复18px；左对齐 -->
+<p data-role="body" style="margin:0 0 8px;font-size:15px;color:#4f504b;letter-spacing:0.05px;line-height:30px;text-align:left;">【短句一】</p>
+<p data-role="body" style="margin:0 0 18px;font-size:15px;color:#4f504b;letter-spacing:0.05px;line-height:30px;text-align:left;">【短句末项】</p>
+
+<!-- ③ 三种强调（同字号）：黑粗＝主判断；橙色中等字重＝概念/并列标签；普通字重橙细下划线＝短动作 -->
+<span style="font-weight:700;color:#24251f;">【主判断】</span>
+<span style="font-weight:500;color:#b17816;">【概念/标签】</span>
+<span style="text-decoration:underline 1px #c48a30;">【短动作】</span>
+
+<!-- ④ 章节头：大章前72px；编号左（48px不可收缩槽、nowrap）标题右（≤2行）；下行 PART + 英文小标两列对齐；标题至首段47px -->
+<section style="margin:72px 0 0;">
+ <section style="display:flex;align-items:baseline;">
+  <section style="width:48px;flex-shrink:0;margin-right:10px;"><p data-role="number" style="margin:0;font-size:34px;font-weight:800;line-height:1;letter-spacing:-1.5px;color:#b17816;white-space:nowrap;word-break:keep-all;">01</p></section>
+  <section data-role="title" style="flex:1;min-width:0;">
+   <p style="margin:0;font-size:21px;font-weight:800;line-height:1.35;color:#b17816;text-align:left;">【标题第一行】</p>
+   <p style="margin:0;font-size:21px;font-weight:800;line-height:1.35;color:#b17816;text-align:left;">【标题第二行，可省】</p>
+  </section>
+ </section>
+ <section style="display:flex;align-items:center;margin-top:8px;">
+  <p data-role="metadata" style="margin:0 10px 0 0;width:48px;flex-shrink:0;font-size:8px;font-weight:800;letter-spacing:2px;color:#b17816;">PART</p>
+  <p data-role="metadata" style="margin:0;font-size:10px;line-height:1.4;font-weight:700;letter-spacing:1.5px;color:#777870;">【ENGLISH LABEL】</p>
+ </section>
+</section>
+<p data-role="body" style="margin:47px 0 18px;font-size:15px;color:#4f504b;letter-spacing:0.05px;line-height:30px;text-align:justify;">【章首段】</p>
+
+<!-- ⑤ 图片模块：前后48px；1px #d7d7d0 细框、5px圆角、4px内边距、无底色；图注按需，11px 居中距图8px -->
+<section style="margin:48px 0;">
+ <section style="border:1px solid #d7d7d0;border-radius:5px;overflow:hidden;padding:4px;"><img src="【图片地址】" alt="【说明】" style="width:100%;height:auto;display:block;border-radius:4px;"></section>
+ <p data-role="caption" style="margin:8px 0 0;font-size:11px;line-height:1.7;color:#8b8c84;text-align:center;letter-spacing:0;">【图注，可删整节点】</p>
+</section>
+
+<!-- ⑥ 作者框：无底色、1px细框、5px圆角、23px 16px；标题13px；之后不留空段 -->
+<section style="margin:30px 0 0;border:1px solid #d1d1c9;border-radius:5px;padding:23px 16px;text-align:center;">
+ <p style="margin:0 0 16px;font-size:13px;line-height:1.7;font-weight:700;color:#23251d;">【我是 @署名】</p>
+ <p style="margin:4px 0 0;font-size:13px;line-height:1.9;color:#595757;">【简介】</p>
+</section>
+
+</section>
